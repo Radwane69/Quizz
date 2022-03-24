@@ -1,5 +1,0 @@
-git satus => permet de savoir ou nous en sommes
-git add + nom de fichier => permet de traquer un fichier
-git commit -m "message de commit" => permet d'enregistrer les modifications des fichiers traqués
-git push => permet d'envoyer son code vers le serveur
-git pull => permet de récupérer le code depuis le serveur

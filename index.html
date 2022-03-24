@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quiz !!!</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/aap.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Quiz Math-Science !!! </h1>
+    <form id="quiz" name="quiz">
+        <p class="questions">Un vecteur est caractérisé par sa direction, et son</p>
+        <input id="textbox" type="text" name="question1">
+        <p class="questions">Un vecteur et son opposé ont</p>
+        <input type="radio" id="mc" name="question2" value="même direction mais des sens opposés"> même direction mais des sens opposés <br>
+        <input type="radio" id="mc" name="question2" value="même direction mais des longueurs opposées"> même direction mais des longueurs opposées  <br>
+        <p class="questions">La relation de Chasles dit que pour tous points A, B et C, on a CB + BA = </p>
+        <input type="radio" id="mc" name="question3" value="AC"> AC;<br>
+        <input type="radio" id="mc" name="question3" value="CA"> CA;<br>
+        <input type="radio" id="mc" name="question3" value="AB"> AB;<br>
+        <input id="button" type="button" value="Validez!" onclick="check();">
+    </form>
+    <div id="salut">
+        <p id="nombrecorrecte"></p>
+        <p id="message"></p>
+        <img id="image">
+    </div>
+
+</html>
+</body>
